@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("fundo-tela.webp");
+    background-position: bottom;
+    font-family: Roboto;
+
+}
+
+.caixa-dialogo{
+    height:600px;
+    width: 300px;
+    margin: auto;
+    vertical-align: auto;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    background-color: rgba(1, 3, 34, 0.7);
+    border-radius: 50px;
+    margin-top:100px;
+}
+
+.logo{
+    color:white;
+    font-weight: Bold;
+    font-size: 50px;
+    text-shadow: 10px 5px 40px black;
+}
+
+.recuperacao-titulo{
+    color:white;
+    font-size: 24px;
+    text-shadow: 10px 5px 20px black;
+
+}
+
+.mensagem-recuperacao{
+    width: 200px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius:20px;
+    margin: auto;
+}
+
+.email-usuario{
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.botão-enviar{
+    background-color: rgb(0, 136, 30);
+    color:white;
+    font-weight: bolder;
+    font-size: 27px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 17px;
+
+}
